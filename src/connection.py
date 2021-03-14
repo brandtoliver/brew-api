@@ -5,15 +5,6 @@ DEFAULT_TIMEOUT = 1
 
 _LOGGER = logging.getLogger(__name__)
 
-def errorHandling(data):
-    codes = {195:'Slider error',
-            129:'OK',
-            131:'Brewing',
-            64:'Water ok',
-            65:'No Water',
-            }
-    return codes.get(data)
-
 class BTLEConnection(btle.DefaultDelegate):
     def __init__(self, mac_addr, auth_token, AUTH_HANDLE):
         btle.DefaultDelegate.__init__(self)
