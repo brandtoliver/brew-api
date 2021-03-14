@@ -1,7 +1,11 @@
 ## brew-api
-Reverse engineering nespresso prodigios ble interface and creating flask api on raspberry pi.
+Reverse engineering nespresso prodigios ble interface and creating flask api on Raspberry pi 4 (4gb).
 
 Contributions are very welcome.
+
+Running the solution:
+1) kill bluez on host machine: `sudo killall -9 bluetoothd` (see source 5)
+2) run docker container: `docker run --rm --net=host --privileged -it myimage:mytag`
 
 ## project status:
 The api currently support `/status` (current status of nespresso machine e.g. "OK", "Brewing..." or "Slider error") and `/brew/<string:brew_type>` for brewing coffee.
