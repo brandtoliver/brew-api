@@ -1,5 +1,5 @@
 ## brew-api
-Reverse engineering Nespresso Prodigios ble interface and creating flask api on Raspberry pi 4 (4gb).
+Reverse-engineering Nespresso Prodigios ble interface and creating flask api on Raspberry pi 4 (4gb).
 
 Contributions are very welcome.
 
