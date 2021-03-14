@@ -4,7 +4,7 @@ Reverse engineering nespresso prodigios ble interface and creating flask api on 
 Contributions are very welcome.
 
 ## project status:
-The api currently support "/status" (current status of nespresso machine e.g. "OK", "Brewing..." or "Slider error") and "/brew/<string:brew_type> for brewing coffee.
+The api currently support `/status` (current status of nespresso machine e.g. "OK", "Brewing..." or "Slider error") and `/brew/<string:brew_type>` for brewing coffee.
 
 ## sources and inspiration:
 1) Performing a reverse enigneering on a similar nespresso machine: https://gist.github.com/farminf/94f681eaca2760212f457ac59da99f23
