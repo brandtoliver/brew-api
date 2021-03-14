@@ -23,3 +23,4 @@ The api currently support `/status` (current status of nespresso machine e.g. "O
 3) A Python module which allows communication with Bluetooth Low Energy devices: http://ianharvey.github.io/bluepy-doc/index.html
 4) Project structure and code is heavly based on this EQ3 Bluetooth smart thermostats cli using bluepy: https://github.com/rytilahti/python-eq3bt
 5) Running bluez and exposing hci to Docker container: https://stackoverflow.com/questions/28868393/accessing-bluetooth-dongle-from-inside-docker
+6) Using ble on ubuntu (raspberry pi): https://raspberrypi.stackexchange.com/questions/114586/rpi-4b-bluetooth-unavailable-on-ubuntu-20-04 
