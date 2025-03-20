@@ -1,8 +1,6 @@
 ## brew-api
 Reverse-engineering Nespresso Prodigios ble interface and creating flask api on Raspberry pi 4 (4gb).
 
-Contributions are very welcome.
-
 Running the solution:
 1) Build docker image
 2) Kill bluez on host machine: `sudo killall -9 bluetoothd` (see source 5)
